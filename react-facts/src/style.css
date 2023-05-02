@@ -13,6 +13,9 @@ body {
 #root {
 	width: 550px;
 	box-shadow: 0px 8px 24px 8px rgba(0,0,0,0.2);
+	min-height: 550px;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -21,10 +24,10 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: #DEEBF8;
 }
 
 nav h2 {
-	color: #fff;
 	font-size: 16px;
 	line-height: 19.36px;
 	font-weight: 600;
@@ -33,17 +36,18 @@ nav h2 {
 
 main {
 	background-color: #282D35;
-	padding: 57px 27px;
+	padding: 57px 86px 57px 27px;
 	position: relative;
 	color: #fff;
 	z-index: 0;
+	flex-grow: 1;
 }
 
 main h1 {
 	font-size: 39px;
 	line-height: 47px;
 	font-weight: bold;
-	letter-spacing: -5%;
+	letter-spacing: -0.05em;
 	margin-top: 0;
 	margin-bottom: 46px;
 }
