@@ -6,7 +6,7 @@ export default function Card( props ) {
 			<div className="img-wrapper">
 				{props.openSpots == 0 && <span>Sold Out</span>}
 				{props.location == 'Online' && props.openSpots > 0 && <span>Online</span>}
-				<img src={`../public/images/${props.coverImg}`} />
+				<img src={`../images/${props.coverImg}`} />
 			</div>
 
 			<div className="exp-info">
