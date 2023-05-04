@@ -1,4 +1,3 @@
-// import expImg from '../assets/katie-zaferes.png'
 import starImg from '../assets/star.png'
 
 export default function Card( props ) {
