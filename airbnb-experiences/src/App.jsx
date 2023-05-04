@@ -5,11 +5,11 @@ import cardData from './cardData'
 
 export default function App() {
 	const cardElements = cardData.map( card => {
-        return <Card 
+		return <Card 
 			key={card.id}
 			{...card}
 		/>
-    })
+	})
 
 	return (
 		<div className="app">
